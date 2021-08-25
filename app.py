@@ -14,7 +14,7 @@ with header:
 
 # pytrends
 pytrends = TrendReq(hl='en-US')
-kw_list =
+kw_list = imput_feature
 cat = '0' # as string -- no subcat, 
 pytrends.build_payload (kw_list ,
                  cat ,
