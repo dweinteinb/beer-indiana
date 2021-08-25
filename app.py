@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 from pytrends.request import TrendReq
 
-header = st.beta_container()
-map_usa = st.beta_container()
+header = st.container()
+map_usa = st.container()
 
 with header:
     st. title('COVID statistics in the USA')
@@ -24,3 +24,13 @@ pytrends.build_payload (kw_list ,
 
 st.write(imput_feature)
 
+
+
+# hide burger and footer
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
