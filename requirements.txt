@@ -8,3 +8,4 @@ pytrends
 sklearn
 pandas
 sklearn
+twint
