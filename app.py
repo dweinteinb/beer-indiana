@@ -6,8 +6,8 @@ header = st.container()
 map_usa = st.container()
 
 with header:
-    st. title('COVID statistics in the USA')
-    #st. subheader('Predict the epidemiology and vaccination rate, and the anti-covid twits')
+    st. title('Predict Beer preference in Indiana')
+    #st. subheader('Predict taste')
     st. text('select a state')
 
     imput_feature = st.text_input ('Keyword','anti-vax')
