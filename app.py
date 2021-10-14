@@ -7,7 +7,7 @@ map_usa = st.container()
 
 with header:
     st. title('Predict Beer preference in Indiana')
-    #st. subheader('Predict taste')
+    #st. subheader('Do you prefer Bud or Coors ')
     st. text('select a state')
 
     imput_feature = st.text_input ('Keyword','anti-vax')
@@ -23,7 +23,6 @@ pytrends.build_payload (kw_list ,
      gprop='')
 
 st.write(imput_feature)
-
 
 
 # hide burger and footer
