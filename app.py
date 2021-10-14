@@ -8,9 +8,9 @@ map_usa = st.container()
 with header:
     st. title('Predict Beer preference in Indiana')
     #st. subheader('Do you prefer Bud or Coors ')
-    st. text('select a state')
+    st. text('select a district')
 
-    imput_feature = st.text_input ('Keyword','anti-vax')
+    #imput_feature = st.text_input ('Keyword','anti-vax')
 
 # pytrends
 pytrends = TrendReq(hl='en-US')
